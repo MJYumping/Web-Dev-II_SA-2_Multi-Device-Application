@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "install": "^0.13.0",
+    "mongodb": "^6.12.0"
+  },
+  "name": "web-dev-ii_sa-2_multi-device-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MJYumping/Web-Dev-II_SA-2_Multi-Device-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MJYumping/Web-Dev-II_SA-2_Multi-Device-Application/issues"
+  },
+  "homepage": "https://github.com/MJYumping/Web-Dev-II_SA-2_Multi-Device-Application#readme"
+}

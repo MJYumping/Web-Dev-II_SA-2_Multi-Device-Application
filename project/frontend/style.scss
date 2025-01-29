@@ -32,11 +32,15 @@
 
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f9;
+    background-color: #efefef;
+
+    font-family: "Afacad", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
 }
 
 
@@ -189,16 +193,25 @@ nav a:hover {
         box-shadow: 0px 1px 34px -17px rgba(0,0,0,0.75);
 
         .pdiv{
-            border: 2px solid red;
-            display: flex;
-            flex-direction: column;
+            // border: 2px solid red;
+            display: grid;
+            grid-template-rows: 1.5fr 2fr;
+            padding: 25px;
 
             h2{
                 text-align: center;
                 font-family: "Outfit", serif;
                 font-optical-sizing: auto;
-                font-weight: 500;
+                font-weight: 700;
                 font-style: medium;
+            }
+
+            p{
+                text-align: justify;
+                font-family: "Outfit", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
             }
         }
     }
